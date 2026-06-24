@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>안먹어도 배달완료</title>
+  <!-- Google Fonts for Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-wrapper">
+    <div class="app">
+      <!-- Main Content Container -->
+      <main id="app-content"></main>
+      
+      <!-- Bottom Navigation Bar -->
+      <nav id="app-nav" class="bottom-nav">
+        <button id="nav-btn-home" class="nav-item active">
+          <span class="nav-icon">🏠</span>
+          <span class="nav-label">홈</span>
+        </button>
+        <button id="nav-btn-order" class="nav-item">
+          <span class="nav-icon">🍕</span>
+          <span class="nav-label">주문하기</span>
+        </button>
+        <button id="nav-btn-cart" class="nav-item">
+          <span class="nav-icon">🛒</span>
+          <span class="nav-label">장바구니</span>
+          <span id="nav-cart-badge" class="cart-badge hidden">0</span>
+        </button>
+        <button id="nav-btn-profile" class="nav-item">
+          <span class="nav-icon">👤</span>
+          <span class="nav-label">내 정보</span>
+        </button>
+      </nav>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
